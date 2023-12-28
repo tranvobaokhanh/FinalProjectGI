@@ -6,15 +6,19 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\sound0</sound>
+    <sound>sound\sound1</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\s_play</sprite>
+    <sprite>sprites\s_exit</sprite>
     <sprite>sprites\sprite2</sprite>
-    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\s_menu</sprite>
     <sprite>sprites\s_coin</sprite>
     <sprite>sprites\s_score</sprite>
-    <sprite>sprites\s_owlet</sprite>
+    <sprite>sprites\s_owlet_idle</sprite>
+    <sprite>sprites\s_owlet_run</sprite>
+    <sprite>sprites\s_owlet_jump</sprite>
+    <sprite>sprites\s_ground</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="bg_map1">
@@ -29,13 +33,21 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_input.gml</script>
+    <script>scripts\scr_owlet_idle.gml</script>
+    <script>scripts\scr_owlet_run.gml</script>
+    <script>scripts\scr_owlet_jump.gml</script>
+  </scripts>
   <objects name="objects">
-    <object>objects\object0</object>
-    <object>objects\object1</object>
+    <object>objects\o_play</object>
+    <object>objects\o_exit</object>
     <object>objects\object2</object>
-    <object>objects\object3</object>
+    <object>objects\o_menu</object>
     <object>objects\o_coin</object>
     <object>objects\o_score</object>
+    <object>objects\o_owlet</object>
+    <object>objects\o_ground</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
