@@ -5,8 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0</sound>
-    <sound>sound\sound1</sound>
+    <sound>sound\sou_main</sound>
+    <sound>sound\sou_running</sound>
+    <sound>sound\sou_attack</sound>
+    <sound>sound\sou_hitBox</sound>
+    <sound>sound\sou_explosion</sound>
+    <sound>sound\sou_grounding</sound>
+    <sound>sound\sou_openDoor</sound>
+    <sound>sound\sou_bigExplosion</sound>
+    <sound>sound\sou_close</sound>
+    <sound>sound\sou_menu</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\s_play</sprite>
@@ -19,6 +27,9 @@
     <sprite>sprites\s_owlet_run</sprite>
     <sprite>sprites\s_owlet_jump</sprite>
     <sprite>sprites\s_ground</sprite>
+    <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\s_door</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="bg_map1">
@@ -30,6 +41,9 @@
       <background>background\bg_tileset_2</background>
       <background>background\bg_tileset_object_2</background>
       <background>background\bg_main_2</background>
+    </backgrounds>
+    <backgrounds name="bg_map3">
+      <background>background\bg_door</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths"/>
@@ -48,6 +62,8 @@
     <object>objects\o_score</object>
     <object>objects\o_owlet</object>
     <object>objects\o_ground</object>
+    <object>objects\o_door</object>
+    <object>objects\object9</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_menu</room>
