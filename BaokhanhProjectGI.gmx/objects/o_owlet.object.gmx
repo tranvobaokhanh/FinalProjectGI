@@ -187,7 +187,7 @@ if (place_meeting(x, y, o_final)) {
             <kind>1</kind>
             <string>/// Climb
 if (place_meeting(x, y, o_climb)) {
-    y -= 30;
+    y--;
     grav = 0;
 }
 </string>
