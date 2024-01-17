@@ -70,7 +70,7 @@
     <instance objName="o_coin" x="192" y="0" name="inst_B7ED7F57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_coin" x="480" y="0" name="inst_B8D6F24F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_coin" x="512" y="0" name="inst_B9C8E6EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_score" x="256" y="0" name="inst_6E55B807" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_score" x="256" y="64" name="inst_6E55B807" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_ground" x="0" y="224" name="inst_E1E0D6B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_ground" x="32" y="224" name="inst_2A064D27" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_ground" x="64" y="192" name="inst_B849F28A" locked="0" code="" scaleX="8" scaleY="1" colour="4294967295" rotation="0"/>

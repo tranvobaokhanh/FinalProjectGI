@@ -54,6 +54,9 @@
     <script>scripts\scr_owlet_run.gml</script>
     <script>scripts\scr_owlet_jump.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_score</font>
+  </fonts>
   <objects name="objects">
     <object>objects\o_play</object>
     <object>objects\o_exit</object>
