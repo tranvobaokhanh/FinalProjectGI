@@ -15,6 +15,7 @@
     <sound>sound\sou_bigExplosion</sound>
     <sound>sound\sou_close</sound>
     <sound>sound\sou_menu</sound>
+    <sound>sound\sou_jump</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\s_play</sprite>

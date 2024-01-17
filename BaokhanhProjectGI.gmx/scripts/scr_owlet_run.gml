@@ -6,6 +6,7 @@ moveX = (pressD - pressA) * spd;
 
 if (pressA + pressD == 0) {
     state = owletStates.idle;
+    audio_stop_sound(sou_running);
 }
 
 if (pressW) {
